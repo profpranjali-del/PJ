@@ -1,0 +1,789 @@
+﻿id,Title,Abstract,Keywords,Combined
+1,LLM4VV: Developing LLM-driven testsuite for compiler validation,"Large language models (LLMs) are a new and powerful tool for a wide span of applications involving natural and demonstrate impressive code generation abilities. The goal of this work is to automatically generate tests and use these tests to validate and verify compiler implementations of a directive-based
+parallel programming paradigm, OpenACC. To do so, in this paper, we explore the capabilities of stateof-the-art LLMs, including open-source LLMs - Meta’s Codellama, Phind’s fine-tuned version of Codellama, Deepseek’s Deepseek Coder and closed-source LLMs - OpenAI’s GPT-3.5-Turbo and GPT-4-Turbo. We further fine-tune the open-source LLMs and GPT-3.5-Turbo using our own test suiteestsuite dataset along with using the OpenACC specification. We also explored these LLMs using various ptrompt engineering techniques tha  include
+code template, template with retrieval-augmented generation (RAG), one-shot example, one-shot with RAG,expressive prompt with code template and RAG. This paper highlights our findings from over 5 00 tests
+generated via all the above mentioned methods. Our contributions include: (a) exploring the capabi ities of the latest and relevant LLMs for code generation, (b) investigating fine-tuning and prompt methods  and (c)analyzing the outcome of LLMs generated tests including manually analysis of representative set of  ests. We found the LLM Deepseek-Coder-33b-Instruct produced the most passing tests followed by GPT-4-Turbo.",Large language models,"LLM4VV: Developing LLM-driven testsuite for compiler validation Large language models (LLMs) are a new and powerful tool for a wide span of applications involving natural and demonstrate impressive code generation abilities. The goal of this work is to automatically generate tests and use these tests to validate and verify compiler implementations of a directive-based
+parallel programming paradigm, OpenACC. To do so, in this paper, we explore the capabilities of stateof-the-art LLMs, including open-source LLMs - Meta’s Codellama, Phind’s fine-tuned version of Codellama, Deepseek’s Deepseek Coder and closed-source LLMs - OpenAI’s GPT-3.5-Turbo and GPT-4-Turbo. We further fine-tune the open-source LLMs and GPT-3.5-Turbo using our own test suiteestsuite dataset along with using the OpenACC specification. We also explored these LLMs using various ptrompt engineering techniques tha  include
+code template, template with retrieval-augmented generation (RAG), one-shot example, one-shot with RAG,expressive prompt with code template and RAG. This paper highlights our findings from over 5 00 tests
+generated via all the above mentioned methods. Our contributions include: (a) exploring the capabi ities of the latest and relevant LLMs for code generation, (b) investigating fine-tuning and prompt methods  and (c)analyzing the outcome of LLMs generated tests including manually analysis of representative set of  ests. We found the LLM Deepseek-Coder-33b-Instruct produced the most passing tests followed by GPT-4-Turbo. Large language models"
+2,Accelerating Software Development Using Generative AI: ChatGpt Case Study,"The Software Development Life Cycle (SDLC) comprises multiple phases, each requiring Subject Matter Experts (SMEs) with phasespecific
+skills. The efficacy and quality of deliverables of each phase
+are skill dependent. In recent times, Generative AI techniques,
+including Large-scale Language Models (LLMs) like GPT, have become
+significant players in software engineering. These models,
+trained on extensive text data, can offer valuable contributions to
+software development. Interacting with LLMs involves feeding
+prompts with the context information and guiding the generation
+of textual responses. The quality of the response is dependent on
+the quality of the prompt given. This paper proposes a systematic
+prompting approach based on meta-model concepts for SDLC
+phases. The approach is validated using ChatGPT for small but
+complex business application development. We share the approach
+and our experience, learnings, benefits obtained, and the challenges
+encountered while applying the approach using ChatGPT. Our
+experience indicates that Generative AI techniques, such as Chat-
+GPT, have the potential to reduce the skills barrier and accelerate
+software development substantially.","Software creation and management;
+Software development process management; Software
+development methods. AI in SDLC, Large Language Models, Generative AI, ChatGPT, SDLC
+automation, Automated Software Development","Accelerating Software Development Using Generative AI: ChatGpt Case Study The Software Development Life Cycle (SDLC) comprises multiple phases, each requiring Subject Matter Experts (SMEs) with phasespecific
+skills. The efficacy and quality of deliverables of each phase
+are skill dependent. In recent times, Generative AI techniques,
+including Large-scale Language Models (LLMs) like GPT, have become
+significant players in software engineering. These models,
+trained on extensive text data, can offer valuable contributions to
+software development. Interacting with LLMs involves feeding
+prompts with the context information and guiding the generation
+of textual responses. The quality of the response is dependent on
+the quality of the prompt given. This paper proposes a systematic
+prompting approach based on meta-model concepts for SDLC
+phases. The approach is validated using ChatGPT for small but
+complex business application development. We share the approach
+and our experience, learnings, benefits obtained, and the challenges
+encountered while applying the approach using ChatGPT. Our
+experience indicates that Generative AI techniques, such as Chat-
+GPT, have the potential to reduce the skills barrier and accelerate
+software development substantially. Software creation and management;
+Software development process management; Software
+development methods. AI in SDLC, Large Language Models, Generative AI, ChatGPT, SDLC
+automation, Automated Software Development"
+3,AI-Assisted Security: A Step towards Reimagining Software Development for a Safer Future,"The security threats to software are increasing dramatically, and software security is non-negotiable in this
+age of information technology. AI-based tools can make code
+suggestions, improve developer productivity, and block
+insecure coding patterns for secure software development. In
+this paper, we analyze how GitHub Copilot provides AI
+assistants to erase code vulnerabilities and study how we
+should use AI assistants for secure software development.","Secure software development, AI Assistants,
+GitHub Copilot","AI-Assisted Security: A Step towards Reimagining Software Development for a Safer Future The security threats to software are increasing dramatically, and software security is non-negotiable in this
+age of information technology. AI-based tools can make code
+suggestions, improve developer productivity, and block
+insecure coding patterns for secure software development. In
+this paper, we analyze how GitHub Copilot provides AI
+assistants to erase code vulnerabilities and study how we
+should use AI assistants for secure software development. Secure software development, AI Assistants,
+GitHub Copilot"
+4,An Empirical Evaluation of GitHub Copilot’s Code Suggestions,"GitHub and OpenAI recently launched Copilot, an “AI pair programmer” that utilizes the power of Natural Language Processing,
+Static Analysis, Code Synthesis, and Artificial Intelligence. Given a
+natural language description of the target functionality, Copilot can
+generate corresponding code in several programming languages. In
+this paper, we perform an empirical study to evaluate the correctness
+and understandability of Copilot’s suggested code. We use 33
+LeetCode questions to create queries for Copilot in four different
+programming languages. We evaluate the correctness of the corresponding
+132 Copilot solutions by running LeetCode’s provided
+tests, and evaluate understandability using SonarQube’s cyclomatic
+complexity and cognitive complexity metrics.We find that Copilot’s
+Java suggestions have the highest correctness score (57%) while
+JavaScript is the lowest (27%). Overall, Copilot’s suggestions have
+low complexity with no notable differences between the programming
+languages. We also find some potential Copilot shortcomings,
+such as generating code that can be further simplified and code
+that relies on undefined helper methods.","Program Synthesis, Codex, GitHub Copilot, Empirical Evaluation","An Empirical Evaluation of GitHub Copilot’s Code Suggestions GitHub and OpenAI recently launched Copilot, an “AI pair programmer” that utilizes the power of Natural Language Processing,
+Static Analysis, Code Synthesis, and Artificial Intelligence. Given a
+natural language description of the target functionality, Copilot can
+generate corresponding code in several programming languages. In
+this paper, we perform an empirical study to evaluate the correctness
+and understandability of Copilot’s suggested code. We use 33
+LeetCode questions to create queries for Copilot in four different
+programming languages. We evaluate the correctness of the corresponding
+132 Copilot solutions by running LeetCode’s provided
+tests, and evaluate understandability using SonarQube’s cyclomatic
+complexity and cognitive complexity metrics.We find that Copilot’s
+Java suggestions have the highest correctness score (57%) while
+JavaScript is the lowest (27%). Overall, Copilot’s suggestions have
+low complexity with no notable differences between the programming
+languages. We also find some potential Copilot shortcomings,
+such as generating code that can be further simplified and code
+that relies on undefined helper methods. Program Synthesis, Codex, GitHub Copilot, Empirical Evaluation"
+5,An Intelligent Hybrid GenAI Model for Software Testing,"Software Testing, a well-defined process and a major component of software development. It covers various
+methods such as execution of a software program, predicting
+errors, to meet user needs, and ensure that the system is
+working correctly. Due to the advanced development in
+technology around the world, new methods are introduced
+to test the software. This summary talk discusses the current
+state of the art of AI(Artificial Intelligence) for software
+testing. The purpose of software testing is validation,
+verifying and detection of errors. For the study, we explored
+around 30 articles from different research surveys. 12-15
+articles were selected for the final review. Artificial
+intelligence(AI) which has emerged in a promising approach
+to software testing in recent years. The main aim of this
+paper was to review how Artificial Intelligence(AI) works in
+Software testing. This paper had also proposed many key
+offerings of AI in the upcoming future for the area of
+software testing.","Machine Learning , Technical, Software testing,Test Automation, Gen AI.","An Intelligent Hybrid GenAI Model for Software Testing Software Testing, a well-defined process and a major component of software development. It covers various
+methods such as execution of a software program, predicting
+errors, to meet user needs, and ensure that the system is
+working correctly. Due to the advanced development in
+technology around the world, new methods are introduced
+to test the software. This summary talk discusses the current
+state of the art of AI(Artificial Intelligence) for software
+testing. The purpose of software testing is validation,
+verifying and detection of errors. For the study, we explored
+around 30 articles from different research surveys. 12-15
+articles were selected for the final review. Artificial
+intelligence(AI) which has emerged in a promising approach
+to software testing in recent years. The main aim of this
+paper was to review how Artificial Intelligence(AI) works in
+Software testing. This paper had also proposed many key
+offerings of AI in the upcoming future for the area of
+software testing. Machine Learning , Technical, Software testing,Test Automation, Gen AI."
+6,Assessing the Quality of GitHub Copilot’s Code Generation,"The introduction of GitHub’s new code generation tool, GitHub Copilot, seems to be the first well-established instance of an AI
+pair-programmer. GitHub Copilot has access to a large number of
+open-source projects, enabling it to utilize more extensive code in
+various programming languages than other code generation tools.
+Although the initial and informal assessments are promising, a
+systematic evaluation is needed to explore the limits and benefits
+of GitHub Copilot. The main objective of this study is to assess
+the quality of generated code provided by GitHub Copilot. We
+also aim to evaluate the impact of the quality and variety of input
+parameters fed to GitHub Copilot. To achieve this aim, we created
+an experimental setup for evaluating the generated code in terms
+of validity, correctness, and efficiency. Our results suggest that
+GitHub Copilot was able to generate valid code with a 91.5% success
+rate. In terms of code correctness, out of 164 problems, 47 (28.7%)
+were correctly, while 84 (51.2%) were partially correctly, and 33
+(20.1%) were incorrectly generated. Our empirical analysis shows
+that GitHub Copilot is a promising tool based on the results we
+obtained, however further and more comprehensive assessment is
+needed in the future.","GitHub Copilot, code generation, code completion, AI pair programmer,","Assessing the Quality of GitHub Copilot’s Code Generation The introduction of GitHub’s new code generation tool, GitHub Copilot, seems to be the first well-established instance of an AI
+pair-programmer. GitHub Copilot has access to a large number of
+open-source projects, enabling it to utilize more extensive code in
+various programming languages than other code generation tools.
+Although the initial and informal assessments are promising, a
+systematic evaluation is needed to explore the limits and benefits
+of GitHub Copilot. The main objective of this study is to assess
+the quality of generated code provided by GitHub Copilot. We
+also aim to evaluate the impact of the quality and variety of input
+parameters fed to GitHub Copilot. To achieve this aim, we created
+an experimental setup for evaluating the generated code in terms
+of validity, correctness, and efficiency. Our results suggest that
+GitHub Copilot was able to generate valid code with a 91.5% success
+rate. In terms of code correctness, out of 164 problems, 47 (28.7%)
+were correctly, while 84 (51.2%) were partially correctly, and 33
+(20.1%) were incorrectly generated. Our empirical analysis shows
+that GitHub Copilot is a promising tool based on the results we
+obtained, however further and more comprehensive assessment is
+needed in the future. GitHub Copilot, code generation, code completion, AI pair programmer,"
+7,Copiloting the future: How generative AI transforms Software Engineering,"With rapid technological advancements, artificial intelligence (AI) has become integral to various sectors. Generative AI (GenAI) tools like ChatGPT or GitHub Copilot, with their unique content creation capabilities,
+pose transformative potential in Software Engineering by offering new ways to optimize software
+development processes. However, the integration into current processes also presents challenges that require a
+sociotechnical analysis to effectively realize GenAI’s potential.
+Objective: This study investigates how GenAI can be leveraged in the domain of Software Engineering, exploring
+its action potentials and challenges to help businesses and developers optimize the adoption of this technology in
+their workflows.
+Method: We performed a qualitative study and collected data from expert interviews with eighteen professionals
+working in Software Engineering-related roles. Data analysis followed the principles of Grounded Theory to
+analyze how GenAI supports developers’ goals, aligns with organizational practices, and facilitates integration
+into existing routines.
+Results: The findings demonstrate several opportunities of GenAI in Software Engineering to increase productivity
+in development teams. However, several key barriers were also identified, that should be accounted for in
+successful integrations. We synthesize the results in a grounded conceptual framework for GenAI adoption in
+Software Engineering.
+Conclusions: This study contributes to the discourse on GenAI in Software Engineering by providing a conceptual
+framework that aids in understanding the opportunities and challenges of GenAI. It offers practical guidelines for
+businesses and developers to enhance GenAI integration and lays the groundwork for future research on its
+impact in software development.","Software Engineering, Information system development, Grounded Theory","Copiloting the future: How generative AI transforms Software Engineering With rapid technological advancements, artificial intelligence (AI) has become integral to various sectors. Generative AI (GenAI) tools like ChatGPT or GitHub Copilot, with their unique content creation capabilities,
+pose transformative potential in Software Engineering by offering new ways to optimize software
+development processes. However, the integration into current processes also presents challenges that require a
+sociotechnical analysis to effectively realize GenAI’s potential.
+Objective: This study investigates how GenAI can be leveraged in the domain of Software Engineering, exploring
+its action potentials and challenges to help businesses and developers optimize the adoption of this technology in
+their workflows.
+Method: We performed a qualitative study and collected data from expert interviews with eighteen professionals
+working in Software Engineering-related roles. Data analysis followed the principles of Grounded Theory to
+analyze how GenAI supports developers’ goals, aligns with organizational practices, and facilitates integration
+into existing routines.
+Results: The findings demonstrate several opportunities of GenAI in Software Engineering to increase productivity
+in development teams. However, several key barriers were also identified, that should be accounted for in
+successful integrations. We synthesize the results in a grounded conceptual framework for GenAI adoption in
+Software Engineering.
+Conclusions: This study contributes to the discourse on GenAI in Software Engineering by providing a conceptual
+framework that aids in understanding the opportunities and challenges of GenAI. It offers practical guidelines for
+businesses and developers to enhance GenAI integration and lays the groundwork for future research on its
+impact in software development. Software Engineering, Information system development, Grounded Theory"
+8,Cognitive Challenges in Human–Artificial Intelligence Collaboration: Investigating the Path Toward Productive Delegation,"We study how humans make decisions when they collaborate with an artificial intelligence (AI) in a setting where humans and the AI perform classification tasks. Our experimental
+results suggest that humans and AI who work together can outperform the AI
+that outperforms humans when it works on its own. However, the combined performance
+improves only when the AI delegates work to humans but not when humans delegate
+work to the AI. The AI’s delegation performance improved even when it delegated to lowperforming
+subjects; by contrast, humans did not delegate well and did not benefit from
+delegation to the AI. This bad delegation performance cannot be explained with some kind
+of algorithm aversion. On the contrary, subjects acted rationally in an internally consistent
+manner by trying to follow a proven delegation strategy and appeared to appreciate the AI
+support. However, human performance suffered as a result of a lack of metaknowledge—
+that is, humans were not able to assess their own capabilities correctly, which in turn led to
+poor delegation decisions. Lacking metaknowledge, in contrast to reluctance to use AI, is
+an unconscious trait. It fundamentally limits how well human decisionmakers can collaborate
+with AI and other algorithms. The results have implications for the future of work, the
+design of human–AI collaborative environments, and education in the digital age.",artificial intelligence • machine learning • delegation • metaknowledge • human–AI collaboration,"Cognitive Challenges in Human–Artificial Intelligence Collaboration: Investigating the Path Toward Productive Delegation We study how humans make decisions when they collaborate with an artificial intelligence (AI) in a setting where humans and the AI perform classification tasks. Our experimental
+results suggest that humans and AI who work together can outperform the AI
+that outperforms humans when it works on its own. However, the combined performance
+improves only when the AI delegates work to humans but not when humans delegate
+work to the AI. The AI’s delegation performance improved even when it delegated to lowperforming
+subjects; by contrast, humans did not delegate well and did not benefit from
+delegation to the AI. This bad delegation performance cannot be explained with some kind
+of algorithm aversion. On the contrary, subjects acted rationally in an internally consistent
+manner by trying to follow a proven delegation strategy and appeared to appreciate the AI
+support. However, human performance suffered as a result of a lack of metaknowledge—
+that is, humans were not able to assess their own capabilities correctly, which in turn led to
+poor delegation decisions. Lacking metaknowledge, in contrast to reluctance to use AI, is
+an unconscious trait. It fundamentally limits how well human decisionmakers can collaborate
+with AI and other algorithms. The results have implications for the future of work, the
+design of human–AI collaborative environments, and education in the digital age. artificial intelligence • machine learning • delegation • metaknowledge • human–AI collaboration"
+9,The Role of Generative AI in Software Development Productivity: A Pilot Case Study,"With software development increasingly reliant on innovative technologies, there is a growing interest in exploring the potential
+of generative AI tools to streamline processes and enhance productivity.
+In this scenario, this paper investigates the integration
+of generative AI tools within software development, focusing on
+understanding their uses, benefits, and challenges to software professionals,
+in particular, looking at aspects of productivity. Through
+a pilot case study involving software practitioners working in different
+roles, we gathered valuable experiences on the integration
+of generative AI tools into their daily work routines. Our findings
+reveal a generally positive perception of these tools in individual
+productivity while also highlighting the need to address identified
+limitations. Overall, our research sets the stage for further
+exploration into the evolving landscape of software development
+practices with the integration of generative AI tools.","software engineering, generative AI, LLMs, productivity","The Role of Generative AI in Software Development Productivity: A Pilot Case Study With software development increasingly reliant on innovative technologies, there is a growing interest in exploring the potential
+of generative AI tools to streamline processes and enhance productivity.
+In this scenario, this paper investigates the integration
+of generative AI tools within software development, focusing on
+understanding their uses, benefits, and challenges to software professionals,
+in particular, looking at aspects of productivity. Through
+a pilot case study involving software practitioners working in different
+roles, we gathered valuable experiences on the integration
+of generative AI tools into their daily work routines. Our findings
+reveal a generally positive perception of these tools in individual
+productivity while also highlighting the need to address identified
+limitations. Overall, our research sets the stage for further
+exploration into the evolving landscape of software development
+practices with the integration of generative AI tools. software engineering, generative AI, LLMs, productivity"
+10,Generative AI for Software Practitioners,,,Generative AI for Software Practitioners  
+11,Generative AI in the Software Development Lifecycle,"We conducted a virtual roundtable on generative AI (GenAI), human/machine teaming, and the future of the software development lifecycle (SDLC). Experts from industry, academia, and government explored how GenAI is transforming the SDLC across mission and business domains.",,"Generative AI in the Software Development Lifecycle We conducted a virtual roundtable on generative AI (GenAI), human/machine teaming, and the future of the software development lifecycle (SDLC). Experts from industry, academia, and government explored how GenAI is transforming the SDLC across mission and business domains. "
+12,GitHub Copilot AI pair programmer: Asset or Liability?,"Automatic program synthesis is a long-lasting dream in software engineering. Recently, a promising Deep Learning (DL) based solution, called Copilot, has been proposed by OpenAI and Microsoft as an
+industrial product. Although some studies evaluate the correctness of Copilot solutions and report its
+issues, more empirical evaluations are necessary to understand how developers can benefit from it
+effectively. In this paper, we study the capabilities of Copilot in two different programming tasks: (i)
+generating (and reproducing) correct and efficient solutions for fundamental algorithmic problems, and
+(ii) comparing Copilot’s proposed solutions with those of human programmers on a set of programming
+tasks. For the former, we assess the performance and functionality of Copilot in solving selected
+fundamental problems in computer science, like sorting and implementing data structures. In the latter,
+a dataset of programming problems with human-provided solutions is used. The results show that
+Copilot is capable of providing solutions for almost all fundamental algorithmic problems, however,
+some solutions are buggy and non-reproducible. Moreover, Copilot has some difficulties in combining
+multiple methods to generate a solution. Comparing Copilot to humans, our results show that the
+correct ratio of humans’ solutions is greater than Copilot’s suggestions, while the buggy solutions
+generated by Copilot require less effort to be repaired. Based on our findings, if Copilot is used by expert
+developers in software projects, it can become an asset since its suggestions could be comparable to
+humans’ contributions in terms of quality. However, Copilot can become a liability if it is used by
+novice developers who may fail to filter its buggy or non-optimal solutions due to a lack of expertise.","Code completion, Language model, GitHub copilot testing","GitHub Copilot AI pair programmer: Asset or Liability? Automatic program synthesis is a long-lasting dream in software engineering. Recently, a promising Deep Learning (DL) based solution, called Copilot, has been proposed by OpenAI and Microsoft as an
+industrial product. Although some studies evaluate the correctness of Copilot solutions and report its
+issues, more empirical evaluations are necessary to understand how developers can benefit from it
+effectively. In this paper, we study the capabilities of Copilot in two different programming tasks: (i)
+generating (and reproducing) correct and efficient solutions for fundamental algorithmic problems, and
+(ii) comparing Copilot’s proposed solutions with those of human programmers on a set of programming
+tasks. For the former, we assess the performance and functionality of Copilot in solving selected
+fundamental problems in computer science, like sorting and implementing data structures. In the latter,
+a dataset of programming problems with human-provided solutions is used. The results show that
+Copilot is capable of providing solutions for almost all fundamental algorithmic problems, however,
+some solutions are buggy and non-reproducible. Moreover, Copilot has some difficulties in combining
+multiple methods to generate a solution. Comparing Copilot to humans, our results show that the
+correct ratio of humans’ solutions is greater than Copilot’s suggestions, while the buggy solutions
+generated by Copilot require less effort to be repaired. Based on our findings, if Copilot is used by expert
+developers in software projects, it can become an asset since its suggestions could be comparable to
+humans’ contributions in terms of quality. However, Copilot can become a liability if it is used by
+novice developers who may fail to filter its buggy or non-optimal solutions due to a lack of expertise. Code completion, Language model, GitHub copilot testing"
+13,How to Use Generative AI to Boost Developer Productivity,"Early adopters of generative AI developer tools are missing the chance for bigger productivity gains by focusing mainly on coding and testing. Software engineering leaders should also use GenAI tools to improve developer satisfaction, collaboration and flow, to maximize gains.",,"How to Use Generative AI to Boost Developer Productivity Early adopters of generative AI developer tools are missing the chance for bigger productivity gains by focusing mainly on coding and testing. Software engineering leaders should also use GenAI tools to improve developer satisfaction, collaboration and flow, to maximize gains. "
+14,The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot,"Generative artificial intelligence (AI) has opened the possibility of automated content production, including coding in software development, which can significantly influence the participation and performance of
+software developers. To explore this impact, we investigate the role of GitHub Copilot, a generative AI pair
+programmer, on software development in open-source community, where multiple developers voluntarily
+collaborate on software projects. Using GitHub's dataset for open-source repositories and a generalized
+synthetic control method, we find that Copilot significantly enhances project-level productivity by 6.5%.
+Delving deeper, we dissect the key mechanisms driving this improvement. Our findings reveal a 5.5%
+increase in individual productivity and a 5.4% increase in participation. However, this is accompanied with
+a 41.6% increase in integration time, potentially due to higher coordination costs. Interestingly, we also
+observe the differential effects among developers. We discover that core developers achieve greater projectlevel
+productivity gains from using Copilot, benefiting more in terms of individual productivity and
+participation compared to peripheral developers, plausibly due to their deeper familiarity with software
+projects. We also find that the increase in project-level productivity is accompanied with no change in code
+quality. We conclude that AI pair programmers bring benefits to developers to automate and augment their
+code, but human developers’ knowledge of software projects can enhance the benefits. In summary, our
+research underscores the role of AI pair programmers in impacting project-level productivity within the
+open-source community and suggests potential implications for the structure of open-source software
+projects.","Generative AI, Open-source Software Development, Project-level Productivity, AI Pair Programmer, GitHub Copilot","The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot Generative artificial intelligence (AI) has opened the possibility of automated content production, including coding in software development, which can significantly influence the participation and performance of
+software developers. To explore this impact, we investigate the role of GitHub Copilot, a generative AI pair
+programmer, on software development in open-source community, where multiple developers voluntarily
+collaborate on software projects. Using GitHub's dataset for open-source repositories and a generalized
+synthetic control method, we find that Copilot significantly enhances project-level productivity by 6.5%.
+Delving deeper, we dissect the key mechanisms driving this improvement. Our findings reveal a 5.5%
+increase in individual productivity and a 5.4% increase in participation. However, this is accompanied with
+a 41.6% increase in integration time, potentially due to higher coordination costs. Interestingly, we also
+observe the differential effects among developers. We discover that core developers achieve greater projectlevel
+productivity gains from using Copilot, benefiting more in terms of individual productivity and
+participation compared to peripheral developers, plausibly due to their deeper familiarity with software
+projects. We also find that the increase in project-level productivity is accompanied with no change in code
+quality. We conclude that AI pair programmers bring benefits to developers to automate and augment their
+code, but human developers’ knowledge of software projects can enhance the benefits. In summary, our
+research underscores the role of AI pair programmers in impacting project-level productivity within the
+open-source community and suggests potential implications for the structure of open-source software
+projects. Generative AI, Open-source Software Development, Project-level Productivity, AI Pair Programmer, GitHub Copilot"
+15,Investigating Code Generation Performance of ChatGPT with Crowdsourcing Social Data,"The recent advancements in Artificial Intelligence, particularly in large language models and generative models,
+are reshaping the field of software engineering by enabling
+innovative ways of performing various tasks, such as programming,
+debugging, and testing. However, few existing works have
+thoroughly explored the potential of AI in code generation and
+users’ attitudes toward AI-assisted coding tools. This knowledge
+gap leaves it unclear how AI is transforming software
+engineering and programming education. This paper presents
+a scalable crowdsourcing data-driven framework to investigate
+the code generation performance of generative large language
+models from diverse perspectives across multiple social media
+platforms. Specifically, we utilize ChatGPT, a popular generative
+large language model, as a representative example to reveal its
+insights and patterns in code generation. First, we propose a
+hybrid keyword word expansion method that integrates words
+suggested by topic modeling and expert knowledge to filter
+relevant social posts of interest on Twitter and Reddit. Then
+we collect 316K tweets and 3.2K Reddit posts about ChatGPT’s
+code generation, spanning from Dec. 1, 2022 to January 31,
+2023. Our data analytics show that ChatGPT has been used
+in more than 10 programming languages, with Python and
+JavaScript being the two most popular, for a diverse range
+of tasks such as code debugging, interview preparation, and
+academic assignment solving. Surprisingly, our analysis shows
+that fear is the dominant emotion associated with ChatGPT’s
+code generation, overshadowing emotions of happiness, anger,
+surprise, and sadness. Furthermore, we construct a ChatGPT
+prompt and corresponding code dataset by analyzing the screenshots
+of ChatGPT code generation shared on social media. This
+dataset enables us to evaluate the quality of the generated code,
+and we have released this dataset to the public. We believe the
+insights gained from our work will provide valuable guidance for
+future research on AI-powered code generation","ChatGPT, Coding Generation, Software Engineering, Large Language Models (LLMs), Generative Models, Social Media","Investigating Code Generation Performance of ChatGPT with Crowdsourcing Social Data The recent advancements in Artificial Intelligence, particularly in large language models and generative models,
+are reshaping the field of software engineering by enabling
+innovative ways of performing various tasks, such as programming,
+debugging, and testing. However, few existing works have
+thoroughly explored the potential of AI in code generation and
+users’ attitudes toward AI-assisted coding tools. This knowledge
+gap leaves it unclear how AI is transforming software
+engineering and programming education. This paper presents
+a scalable crowdsourcing data-driven framework to investigate
+the code generation performance of generative large language
+models from diverse perspectives across multiple social media
+platforms. Specifically, we utilize ChatGPT, a popular generative
+large language model, as a representative example to reveal its
+insights and patterns in code generation. First, we propose a
+hybrid keyword word expansion method that integrates words
+suggested by topic modeling and expert knowledge to filter
+relevant social posts of interest on Twitter and Reddit. Then
+we collect 316K tweets and 3.2K Reddit posts about ChatGPT’s
+code generation, spanning from Dec. 1, 2022 to January 31,
+2023. Our data analytics show that ChatGPT has been used
+in more than 10 programming languages, with Python and
+JavaScript being the two most popular, for a diverse range
+of tasks such as code debugging, interview preparation, and
+academic assignment solving. Surprisingly, our analysis shows
+that fear is the dominant emotion associated with ChatGPT’s
+code generation, overshadowing emotions of happiness, anger,
+surprise, and sadness. Furthermore, we construct a ChatGPT
+prompt and corresponding code dataset by analyzing the screenshots
+of ChatGPT code generation shared on social media. This
+dataset enables us to evaluate the quality of the generated code,
+and we have released this dataset to the public. We believe the
+insights gained from our work will provide valuable guidance for
+future research on AI-powered code generation ChatGPT, Coding Generation, Software Engineering, Large Language Models (LLMs), Generative Models, Social Media"
+16,Is GitHub Copilot a Substitute for Human Pair-programming? An Empirical Study,"This empirical study investigates the effectiveness of pair programming
+with GitHub Copilot in comparison to human pairprogramming.
+Through an experiment with 21 participants we
+focus on code productivity and code quality. For experimental design,
+a participant was given a project to code, under three conditions
+presented in a randomized order. The conditions are pairprogramming
+with Copilot, human pair-programming as a driver,
+and as a navigator. The codes generated from the three trials were
+analyzed to determine how many lines of code on average were
+added in each condition and how many lines of code on average
+were removed in the subsequent stage. The former measures the
+productivity of each condition while the latter measures the quality
+of the produced code. The results suggest that although Copilot increases
+productivity as measured by lines of code added, the quality
+of code produced is inferior by having more lines of code deleted
+in the subsequent trial.","Software and its engineering→Development frameworks and environments; • Human-centered computing→Collaborative and social computing systems and tools. GitHub, Copilot, Software Development, AI","Is GitHub Copilot a Substitute for Human Pair-programming? An Empirical Study This empirical study investigates the effectiveness of pair programming
+with GitHub Copilot in comparison to human pairprogramming.
+Through an experiment with 21 participants we
+focus on code productivity and code quality. For experimental design,
+a participant was given a project to code, under three conditions
+presented in a randomized order. The conditions are pairprogramming
+with Copilot, human pair-programming as a driver,
+and as a navigator. The codes generated from the three trials were
+analyzed to determine how many lines of code on average were
+added in each condition and how many lines of code on average
+were removed in the subsequent stage. The former measures the
+productivity of each condition while the latter measures the quality
+of the produced code. The results suggest that although Copilot increases
+productivity as measured by lines of code added, the quality
+of code produced is inferior by having more lines of code deleted
+in the subsequent trial. Software and its engineering→Development frameworks and environments; • Human-centered computing→Collaborative and social computing systems and tools. GitHub, Copilot, Software Development, AI"
+17,Large Language Models for Software Engineering: A Systematic Literature Review,"Large Language Models (LLMs) have significantly impacted numerous domains, including Software Engineering comprehensive understanding of the application, effects, and possible limitations of LLMs on SE is still in
+its early stages. To bridge this gap, we conducted a Systematic Literature Review (SLR) on LLM4SE, with
+a particular focus on understanding how LLMs can be exploited to optimize processes and outcomes. We
+selected and analyzed 395 research articles from January 2017 to January 2024 to answer four key Research
+Questions (RQs). In RQ1, we categorize different LLMs that have been employed in SE tasks, characterizing
+their distinctive features and uses. In RQ2, we analyze the methods used in data collection, pre-processing,",Surveys and overviews; • Software and its engineering. Software development techniques; • Computing methodologies!Artificial intelligence,"Large Language Models for Software Engineering: A Systematic Literature Review Large Language Models (LLMs) have significantly impacted numerous domains, including Software Engineering comprehensive understanding of the application, effects, and possible limitations of LLMs on SE is still in
+its early stages. To bridge this gap, we conducted a Systematic Literature Review (SLR) on LLM4SE, with
+a particular focus on understanding how LLMs can be exploited to optimize processes and outcomes. We
+selected and analyzed 395 research articles from January 2017 to January 2024 to answer four key Research
+Questions (RQs). In RQ1, we categorize different LLMs that have been employed in SE tasks, characterizing
+their distinctive features and uses. In RQ2, we analyze the methods used in data collection, pre-processing, Surveys and overviews; • Software and its engineering. Software development techniques; • Computing methodologies!Artificial intelligence"
+18,Low-Code/No-Code Meets GenAI: A New Era in Product Development,"This paper focuses on the convergence of Intelligence (GenAI), marking a transformative era in
+product development. As organizations strive to accelerate
+innovation and reduce time-to-market, the synergy
+between LCNC and GenAI offers unprecedented
+opportunities for rapid prototyping, efficient development,
+and enhanced creativity. Finally, we look forward to how this
+convergence might reshape the landscape of product
+development, democratizing innovation, and the future of
+work for technology-driven sectors. This is done through
+research in both the literature review method and
+experimental methodology.","Low-Code/No-Code, Generative AI, Product Development, Software Engineering, Digital Transformation, Innovation, Artificial Intelligence","Low-Code/No-Code Meets GenAI: A New Era in Product Development This paper focuses on the convergence of Intelligence (GenAI), marking a transformative era in
+product development. As organizations strive to accelerate
+innovation and reduce time-to-market, the synergy
+between LCNC and GenAI offers unprecedented
+opportunities for rapid prototyping, efficient development,
+and enhanced creativity. Finally, we look forward to how this
+convergence might reshape the landscape of product
+development, democratizing innovation, and the future of
+work for technology-driven sectors. This is done through
+research in both the literature review method and
+experimental methodology. Low-Code/No-Code, Generative AI, Product Development, Software Engineering, Digital Transformation, Innovation, Artificial Intelligence"
+19, Measuring Github Copilot impact on productivity,"Case study asks Copilot users about its impact on their productivity, and seeks to find their perceptions mirrored in user data.",," Measuring Github Copilot impact on productivity Case study asks Copilot users about its impact on their productivity, and seeks to find their perceptions mirrored in user data. "
+20,Navigating software development in the ChatGPT and GitHub Copilot era,"Generative artificial intelligence (GenAI) technologies using LLMs (large language models), such as ChatGPT and GitHub Copilot, with the ability to create
+code, have the potential to change the software-development landscape. Will this
+process be incremental, with software developers learning GenAI skills to supplement
+their existing skills, or will the process be more destructive, with the loss
+of large numbers of development jobs and a radical change in the responsibilities
+of the remaining developers? Given the rapid growth of AI capabilities, it is impossible
+to provide a crystal ball, but this article aims to give insight into the adoption
+of GenAI with LLMs in software development. The article gives an overview of the
+software-development industry and of the job functions of software developers. A
+literature review, combined with a content analysis of online comments from developers,
+gives insight into how GenAI implemented with LLMs is changing software
+development and how developers are responding to these changes. The article ties
+the academic and developer insights together into recommendations for software
+developers, and it describes a CMM (capability maturity model) framework for assessing
+and improving LLM development usage",Generative AI; Large language models; Software developers; AI prompting; Prompt engineering; Capability maturity model,"Navigating software development in the ChatGPT and GitHub Copilot era Generative artificial intelligence (GenAI) technologies using LLMs (large language models), such as ChatGPT and GitHub Copilot, with the ability to create
+code, have the potential to change the software-development landscape. Will this
+process be incremental, with software developers learning GenAI skills to supplement
+their existing skills, or will the process be more destructive, with the loss
+of large numbers of development jobs and a radical change in the responsibilities
+of the remaining developers? Given the rapid growth of AI capabilities, it is impossible
+to provide a crystal ball, but this article aims to give insight into the adoption
+of GenAI with LLMs in software development. The article gives an overview of the
+software-development industry and of the job functions of software developers. A
+literature review, combined with a content analysis of online comments from developers,
+gives insight into how GenAI implemented with LLMs is changing software
+development and how developers are responding to these changes. The article ties
+the academic and developer insights together into recommendations for software
+developers, and it describes a CMM (capability maturity model) framework for assessing
+and improving LLM development usage Generative AI; Large language models; Software developers; AI prompting; Prompt engineering; Capability maturity model"
+21,Navigating the Complexity of Generative AI Adoption in Software Engineering,"This article explores the adoption of Generative Artificial Intelligence (AI) toolswithin the domain of software engineering, focusing on the influencing factors at the individual, technological, and social levels.We applied
+a convergent mixed-methods approach to offer a comprehensive understanding of AI adoption dynamics.
+We initially conducted a questionnaire survey with 100 software engineers, drawing upon the Technology
+Acceptance Model, the Diffusion of Innovation Theory, and the Social Cognitive Theory as guiding theoretical
+frameworks. Employing the Gioia methodology, we derived a theoretical model of AI adoption in software
+engineering: the Human-AI Collaboration and Adaptation Framework. This model was then validated using
+Partial Least Squares–Structural Equation Modeling based on data from 183 software engineers. Findings
+indicate that at this early stage of AI integration, the compatibility of AI tools within existing development
+workflows predominantly drives their adoption, challenging conventional technology acceptance theories.
+The impact of perceived usefulness, social factors, and personal innovativeness seems less pronounced than
+expected. The study provides crucial insights for future AI tool design and offers a framework for developing
+effective organizational implementation strategies.","Generative AI, large language models, technology adaption, empirical software engineering","Navigating the Complexity of Generative AI Adoption in Software Engineering This article explores the adoption of Generative Artificial Intelligence (AI) toolswithin the domain of software engineering, focusing on the influencing factors at the individual, technological, and social levels.We applied
+a convergent mixed-methods approach to offer a comprehensive understanding of AI adoption dynamics.
+We initially conducted a questionnaire survey with 100 software engineers, drawing upon the Technology
+Acceptance Model, the Diffusion of Innovation Theory, and the Social Cognitive Theory as guiding theoretical
+frameworks. Employing the Gioia methodology, we derived a theoretical model of AI adoption in software
+engineering: the Human-AI Collaboration and Adaptation Framework. This model was then validated using
+Partial Least Squares–Structural Equation Modeling based on data from 183 software engineers. Findings
+indicate that at this early stage of AI integration, the compatibility of AI tools within existing development
+workflows predominantly drives their adoption, challenging conventional technology acceptance theories.
+The impact of perceived usefulness, social factors, and personal innovativeness seems less pronounced than
+expected. The study provides crucial insights for future AI tool design and offers a framework for developing
+effective organizational implementation strategies. Generative AI, large language models, technology adaption, empirical software engineering"
+22,On the Use of GPT-4 for Creating Goal Models: An Exploratory Study,"The emergence of large language models and conversational front-ends such as ChatGPT is revolutionizing many
+software engineering activities. The extent to which such technologies
+can help with requirements engineering activities, especially
+the ones surrounding modeling, however, remains to be
+seen. This paper reports on early experimental results on the
+potential use of GPT-4 in the latter context, with a focus on the
+development of goal-oriented models. We first explore GPT-4’s
+current knowledge and mastering of a specific modeling language,
+namely the Goal-oriented Requirement Language (GRL). We
+then use four combinations of prompts – with and without a
+proposed textual syntax, and with and without contextual domain
+knowledge – to guide the creation of GRL models for two case
+studies. The first case study focuses on a well-documented topic
+in the goal modeling community (Kids Help Phone), whereas the
+second one explores a context for which, to our knowledge, no
+public goal models currently exist (Social Housing). We explore
+the interactive construction of a goal model through specific
+follow-up prompts aimed to fix model issues and expand on
+the model content. Our results suggest that GPT-4 preserves
+considerable knowledge on goal modeling, and although many
+elements generated by GPT-4 are generic, reflecting what is
+already in the prompt, or even incorrect, there is value in
+getting exposed to the generated concepts, many of which being
+non-obvious to stakeholders outside the domain. Furthermore,
+aggregating results from multiple runs yields a far better outcome
+than from any individual run","Large Language Models, GPT-4, ChatGPT, Goal Modeling, Goal-oriented Requirement Language, GRL","On the Use of GPT-4 for Creating Goal Models: An Exploratory Study The emergence of large language models and conversational front-ends such as ChatGPT is revolutionizing many
+software engineering activities. The extent to which such technologies
+can help with requirements engineering activities, especially
+the ones surrounding modeling, however, remains to be
+seen. This paper reports on early experimental results on the
+potential use of GPT-4 in the latter context, with a focus on the
+development of goal-oriented models. We first explore GPT-4’s
+current knowledge and mastering of a specific modeling language,
+namely the Goal-oriented Requirement Language (GRL). We
+then use four combinations of prompts – with and without a
+proposed textual syntax, and with and without contextual domain
+knowledge – to guide the creation of GRL models for two case
+studies. The first case study focuses on a well-documented topic
+in the goal modeling community (Kids Help Phone), whereas the
+second one explores a context for which, to our knowledge, no
+public goal models currently exist (Social Housing). We explore
+the interactive construction of a goal model through specific
+follow-up prompts aimed to fix model issues and expand on
+the model content. Our results suggest that GPT-4 preserves
+considerable knowledge on goal modeling, and although many
+elements generated by GPT-4 are generic, reflecting what is
+already in the prompt, or even incorrect, there is value in
+getting exposed to the generated concepts, many of which being
+non-obvious to stakeholders outside the domain. Furthermore,
+aggregating results from multiple runs yields a far better outcome
+than from any individual run Large Language Models, GPT-4, ChatGPT, Goal Modeling, Goal-oriented Requirement Language, GRL"
+23,Generative AI for Software Engineering Teams,"More than half of respondents say generative AI is currently used in their engineering department; those who aren’t using it cite security concerns . For those using generative AI, pair programming is a common use. ChatGPT is a commonly used tool among respondents whose software
+engineering departments are using generative AI. Respondents are excited about generative AI’s use in code generation, but
+concerned with inaccurate, dated and/or biased results
+Many respondents believe that generative AI will positively impact
+software engineering.",,"Generative AI for Software Engineering Teams More than half of respondents say generative AI is currently used in their engineering department; those who aren’t using it cite security concerns . For those using generative AI, pair programming is a common use. ChatGPT is a commonly used tool among respondents whose software
+engineering departments are using generative AI. Respondents are excited about generative AI’s use in code generation, but
+concerned with inaccurate, dated and/or biased results
+Many respondents believe that generative AI will positively impact
+software engineering. "
+24,Practices and Challenges of Using GitHub Copilot: An Empirical Study,"With the advances in machine learning, there is a growing interest in AI-enabled tools for autocompleting source
+code. GitHub Copilot, also referred to as the “AI Pair Programmer”,
+has been trained on billions of lines of open source GitHub
+code, and is one of such tools that has been increasingly used since
+its launch in June 2021. However, little effort has been devoted
+to understanding the practices and challenges of using Copilot
+in programming with auto-completed source code. To this end,
+we conducted an empirical study by collecting and analyzing the
+data from Stack Overflow (SO) and GitHub Discussions. More
+specifically, we searched and manually collected 169 SO posts
+and 655 GitHub discussions related to the usage of Copilot.
+We identified the programming languages, IDEs, technologies
+used with Copilot, functions implemented, benefits, limitations,
+and challenges when using Copilot. The results show that when
+practitioners use Copilot: (1) The major programming languages
+used with Copilot are JavaScript and Python, (2) the main IDE
+used with Copilot is Visual Studio Code, (3) the most common
+used technology with Copilot is Node.js, (4) the leading function
+implemented by Copilot is data processing, (5) the significant
+benefit of using Copilot is useful code generation, and (6) the
+main limitation encountered by practitioners when using Copilot
+is difficulty of integration. Our results suggest that using Copilot is
+like a double-edged sword, which requires developers to carefully
+consider various aspects when deciding whether or not to use
+it. Our study provides empirically grounded foundations and
+basis for future research on the role of Copilot as an AI pair
+programmer in software development.","GitHub Copilot, Stack Overflow, GitHub Discussions, Empirical Study","Practices and Challenges of Using GitHub Copilot: An Empirical Study With the advances in machine learning, there is a growing interest in AI-enabled tools for autocompleting source
+code. GitHub Copilot, also referred to as the “AI Pair Programmer”,
+has been trained on billions of lines of open source GitHub
+code, and is one of such tools that has been increasingly used since
+its launch in June 2021. However, little effort has been devoted
+to understanding the practices and challenges of using Copilot
+in programming with auto-completed source code. To this end,
+we conducted an empirical study by collecting and analyzing the
+data from Stack Overflow (SO) and GitHub Discussions. More
+specifically, we searched and manually collected 169 SO posts
+and 655 GitHub discussions related to the usage of Copilot.
+We identified the programming languages, IDEs, technologies
+used with Copilot, functions implemented, benefits, limitations,
+and challenges when using Copilot. The results show that when
+practitioners use Copilot: (1) The major programming languages
+used with Copilot are JavaScript and Python, (2) the main IDE
+used with Copilot is Visual Studio Code, (3) the most common
+used technology with Copilot is Node.js, (4) the leading function
+implemented by Copilot is data processing, (5) the significant
+benefit of using Copilot is useful code generation, and (6) the
+main limitation encountered by practitioners when using Copilot
+is difficulty of integration. Our results suggest that using Copilot is
+like a double-edged sword, which requires developers to carefully
+consider various aspects when deciding whether or not to use
+it. Our study provides empirically grounded foundations and
+basis for future research on the role of Copilot as an AI pair
+programmer in software development. GitHub Copilot, Stack Overflow, GitHub Discussions, Empirical Study"
+25,Software Development Automation Using Generative AI,"The Software Development Lifecycle (SDLC) is a structured process that guides the development of software
+projects, encompassing phases from planning to deployment.
+Traditionally, the SDLC has relied on manual input, making it
+prone to delays, errors, and inefficiencies. With the recent
+advancements in Generative AI (GenAI) and Large Language
+Models (LLMs) such as GPT, it is now feasible to automate
+substantial portions of the SDLC. This paper presents a novel
+approach to automating the SDLC using LLMs and the
+Langchain framework, aiming to streamline the entire software
+development process. By au-tomating key phases, including
+project planning, requirements gathering, code generation,
+testing, and deployment, this research explores how AI can
+minimize human intervention and accelerate software
+development timelines. The paper also discusses the potential
+advantages of AI-driven SDLC automation, such as improved
+efficiency, consistency, and scalability, while addressing
+challenges related to its integration. The proposed approach
+offers a glimpse into the future of software engineering, where
+AI plays a central role in transforming how software is
+developed and delivered.","Software Development Lifecycle (SDLC), Generative AI (GenAI), Large Language Models (LLMs), GPT, Langchain, SDLC automation, AI-driven software development, code generation","Software Development Automation Using Generative AI The Software Development Lifecycle (SDLC) is a structured process that guides the development of software
+projects, encompassing phases from planning to deployment.
+Traditionally, the SDLC has relied on manual input, making it
+prone to delays, errors, and inefficiencies. With the recent
+advancements in Generative AI (GenAI) and Large Language
+Models (LLMs) such as GPT, it is now feasible to automate
+substantial portions of the SDLC. This paper presents a novel
+approach to automating the SDLC using LLMs and the
+Langchain framework, aiming to streamline the entire software
+development process. By au-tomating key phases, including
+project planning, requirements gathering, code generation,
+testing, and deployment, this research explores how AI can
+minimize human intervention and accelerate software
+development timelines. The paper also discusses the potential
+advantages of AI-driven SDLC automation, such as improved
+efficiency, consistency, and scalability, while addressing
+challenges related to its integration. The proposed approach
+offers a glimpse into the future of software engineering, where
+AI plays a central role in transforming how software is
+developed and delivered. Software Development Lifecycle (SDLC), Generative AI (GenAI), Large Language Models (LLMs), GPT, Langchain, SDLC automation, AI-driven software development, code generation"
+26,"Taking Flight with Copilot Early
+insights and
+opportunities of
+AI-powered pairprogramming
+tools","The study explores how developers engage with Copilot, a tool powered by AI models, and its impact on productivity, with findings suggesting that developers spend more time reviewing code than writing it, and that Copilot contributes to their productivity.",,"Taking Flight with Copilot Early
+insights and
+opportunities of
+AI-powered pairprogramming
+tools The study explores how developers engage with Copilot, a tool powered by AI models, and its impact on productivity, with findings suggesting that developers spend more time reviewing code than writing it, and that Copilot contributes to their productivity. "
+27,The Programmer’s Assistant: Conversational Interaction with a Large Language Model for Software Development,"Large language models (LLMs) have recently been applied in software engineering to perform tasks such as translating code between
+programming languages, generating code from natural language,
+and autocompleting code as it is being written. When used within
+development tools, these systems typically treat each model invocation
+independently from all previous invocations, and only a
+specific limited functionality is exposed within the user interface.
+This approach to user interaction misses an opportunity for users
+to more deeply engage with the model by having the context of
+their previous interactions, as well as the context of their code,
+inform the model’s responses. We developed a prototype system
+– the Programmer’s Assistant – in order to explore the utility of
+conversational interactions grounded in code, as well as software
+engineers’ receptiveness to the idea of conversing with, rather than
+invoking, a code-fluent LLM. Through an evaluation with 42 participants
+with varied levels of programming experience, we found that
+our system was capable of conducting extended, multi-turn discussions,
+and that it enabled additional knowledge and capabilities
+beyond code generation to emerge from the LLM. Despite skeptical
+initial expectations for conversational programming assistance,
+participants were impressed by the breadth of the assistant’s capabilities,
+the quality of its responses, and its potential for improving
+their productivity. Our work demonstrates the unique potential of
+conversational interactions with LLMs for co-creative processes
+like software development.","code-fluent large language models, foundation models, conversational interaction, human-centered AI","The Programmer’s Assistant: Conversational Interaction with a Large Language Model for Software Development Large language models (LLMs) have recently been applied in software engineering to perform tasks such as translating code between
+programming languages, generating code from natural language,
+and autocompleting code as it is being written. When used within
+development tools, these systems typically treat each model invocation
+independently from all previous invocations, and only a
+specific limited functionality is exposed within the user interface.
+This approach to user interaction misses an opportunity for users
+to more deeply engage with the model by having the context of
+their previous interactions, as well as the context of their code,
+inform the model’s responses. We developed a prototype system
+– the Programmer’s Assistant – in order to explore the utility of
+conversational interactions grounded in code, as well as software
+engineers’ receptiveness to the idea of conversing with, rather than
+invoking, a code-fluent LLM. Through an evaluation with 42 participants
+with varied levels of programming experience, we found that
+our system was capable of conducting extended, multi-turn discussions,
+and that it enabled additional knowledge and capabilities
+beyond code generation to emerge from the LLM. Despite skeptical
+initial expectations for conversational programming assistance,
+participants were impressed by the breadth of the assistant’s capabilities,
+the quality of its responses, and its potential for improving
+their productivity. Our work demonstrates the unique potential of
+conversational interactions with LLMs for co-creative processes
+like software development. code-fluent large language models, foundation models, conversational interaction, human-centered AI"
+28,The Future of Software Development with GenAI: Evolving Roles of Software Personas,"Recent advancements in Generative AI (GenAI) algorithms have been reshaping the Software Development Lifecycle (SDLC) landscape. These transformations not only enhance the speed, accuracy, and productivity of SDLC tasks but also influence the roles and existence of software personas within the SDLC ecosystem. This study evaluates GenAI’s effects on the roles of software personas engaged in the typical SDLC phases: planning, design, development, testing, and deployment. When evaluating these effects, it becomes evident that GenAI’s impact varies across roles and their relation to specific SDLC phases and activities. While some roles experience a substantial impact, achieving full AI-driven automation remains a challenge for roles that demand critical thinking, empathy, and other human supervision. Overall, GenAI's penetration will necessitate new skills and a redefinition of roles for many tasks within SDLC, where humans and AI will collaborate to create better, faster, and more efficient software.","SDLC, AI, GenAI, Software personas, Roles, Skills","The Future of Software Development with GenAI: Evolving Roles of Software Personas Recent advancements in Generative AI (GenAI) algorithms have been reshaping the Software Development Lifecycle (SDLC) landscape. These transformations not only enhance the speed, accuracy, and productivity of SDLC tasks but also influence the roles and existence of software personas within the SDLC ecosystem. This study evaluates GenAI’s effects on the roles of software personas engaged in the typical SDLC phases: planning, design, development, testing, and deployment. When evaluating these effects, it becomes evident that GenAI’s impact varies across roles and their relation to specific SDLC phases and activities. While some roles experience a substantial impact, achieving full AI-driven automation remains a challenge for roles that demand critical thinking, empathy, and other human supervision. Overall, GenAI's penetration will necessitate new skills and a redefinition of roles for many tasks within SDLC, where humans and AI will collaborate to create better, faster, and more efficient software. SDLC, AI, GenAI, Software personas, Roles, Skills"
+29,Transforming Software Development: Evaluating the Efficiency and Challenges of GitHub Copilot in Real-World Projects,"Generative AI technologies promise to transform the product development lifecycle. This study evaluates the efficiency gains, areas for improvement, and emerging challenges of
+using GitHub Copilot, an AI-powered coding assistant. We identified 15 software
+development tasks and assessed Copilot's benefits through real-world projects on large
+proprietary code bases. Our findings indicate significant reductions in developer toil, with
+up to 50% time saved in code documentation and autocompletion, and 30-40% in repetitive
+coding tasks, unit test generation, debugging, and pair programming. However, Copilot
+struggles with complex tasks, large functions, multiple files, and proprietary contexts,
+particularly with C/C++ code. We project a 33-36% time reduction for coding-related tasks
+in a cloud-first software development lifecycle. This study aims to quantify productivity
+improvements, identify underperforming scenarios, examine practical benefits and
+challenges, investigate performance variations across programming languages, and discuss
+emerging issues related to code quality, security, and developer experience.",,"Transforming Software Development: Evaluating the Efficiency and Challenges of GitHub Copilot in Real-World Projects Generative AI technologies promise to transform the product development lifecycle. This study evaluates the efficiency gains, areas for improvement, and emerging challenges of
+using GitHub Copilot, an AI-powered coding assistant. We identified 15 software
+development tasks and assessed Copilot's benefits through real-world projects on large
+proprietary code bases. Our findings indicate significant reductions in developer toil, with
+up to 50% time saved in code documentation and autocompletion, and 30-40% in repetitive
+coding tasks, unit test generation, debugging, and pair programming. However, Copilot
+struggles with complex tasks, large functions, multiple files, and proprietary contexts,
+particularly with C/C++ code. We project a 33-36% time reduction for coding-related tasks
+in a cloud-first software development lifecycle. This study aims to quantify productivity
+improvements, identify underperforming scenarios, examine practical benefits and
+challenges, investigate performance variations across programming languages, and discuss
+emerging issues related to code quality, security, and developer experience. "
+30,Using LLMs in Software Requirements Specifications: An Empirical Evaluation,"The creation of a Software Requirements Specification (SRS) document is important for any software development
+project. Given the recent prowess of Large Language Models
+(LLMs) in answering natural language queries and generating
+sophisticated textual outputs, our study explores their capability
+to produce accurate, coherent, and structured drafts of these
+documents to accelerate the software development lifecycle. We
+assess the performance of GPT-4 and CodeLlama in drafting
+an SRS for a university club management system and compare
+it against human benchmarks using eight distinct criteria. Our
+results suggest that LLMs can match the output quality of an
+entry-level software engineer to generate an SRS, delivering
+complete and consistent drafts. We also evaluate the capabilities
+of LLMs to identify and rectify problems in a given requirements
+document. Our experiments indicate that GPT-4 is capable of
+identifying issues and giving constructive feedback for rectifying
+them, while CodeLlama’s results for validation were not as
+encouraging.We repeated the generation exercise for four distinct
+use cases to study the time saved by employing LLMs for
+SRS generation. The experiment demonstrates that LLMs may
+facilitate a significant reduction in development time for entrylevel
+software engineers. Hence, we conclude that the LLMs can
+be gainfully used by software engineers to increase productivity
+by saving time and effort in generating, validating and rectifying
+software requirements.","Requirements engineering, software requirements specifications, empirical research, large language models","Using LLMs in Software Requirements Specifications: An Empirical Evaluation The creation of a Software Requirements Specification (SRS) document is important for any software development
+project. Given the recent prowess of Large Language Models
+(LLMs) in answering natural language queries and generating
+sophisticated textual outputs, our study explores their capability
+to produce accurate, coherent, and structured drafts of these
+documents to accelerate the software development lifecycle. We
+assess the performance of GPT-4 and CodeLlama in drafting
+an SRS for a university club management system and compare
+it against human benchmarks using eight distinct criteria. Our
+results suggest that LLMs can match the output quality of an
+entry-level software engineer to generate an SRS, delivering
+complete and consistent drafts. We also evaluate the capabilities
+of LLMs to identify and rectify problems in a given requirements
+document. Our experiments indicate that GPT-4 is capable of
+identifying issues and giving constructive feedback for rectifying
+them, while CodeLlama’s results for validation were not as
+encouraging.We repeated the generation exercise for four distinct
+use cases to study the time saved by employing LLMs for
+SRS generation. The experiment demonstrates that LLMs may
+facilitate a significant reduction in development time for entrylevel
+software engineers. Hence, we conclude that the LLMs can
+be gainfully used by software engineers to increase productivity
+by saving time and effort in generating, validating and rectifying
+software requirements. Requirements engineering, software requirements specifications, empirical research, large language models"
